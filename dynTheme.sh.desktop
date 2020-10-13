@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/ziyad/.DynTheme/dynTheme.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=dyn-theme
+Name=dyn-theme
+Comment[en_US]=
+Comment=
