@@ -8,8 +8,8 @@
 #############################################################################
 # Choose your themes !!
 #----------------------
-lightTheme='Yaru-light'
-darkTheme='Yaru-dark'
+lightTheme='Adwaita'
+darkTheme='Adwaita-dark'
 
 # Choose when to switch from light to dark mode !!
 #--------------------------------------------------
