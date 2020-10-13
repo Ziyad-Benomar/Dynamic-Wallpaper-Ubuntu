@@ -4,15 +4,11 @@
 _script="$(readlink -f ${BASH_SOURCE[0]})"
 _base="$(dirname $_script)"
 
-
+# Creating .DynTheme
 cd
 mkdir .DynTheme
+mkdir .DynTheme/DynWallpaper
 env > `pwd`/.DynTheme/myEnve.txt
-
-
-
-
-
 cp `echo $_base`/dynTheme.sh .DynTheme/dynTheme.sh
 
 # Add dynTheme.sh cron job
