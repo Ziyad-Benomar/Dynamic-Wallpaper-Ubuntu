@@ -38,11 +38,11 @@ Enable/Disable dynamic theme/wallpaper
 - The name of each picture is the hour when it will be set as background  
   ( You can have for exaple only three images 06.jpeg, 13.jpeg, and 20.jpeg )  
 
-- To change the theme, You should first create a directory named ".themes" in
+- To change the theme, You should first create a directory named ".themes" in  
   your home if it doesn't exist.("ctrl + H" to show/hide hidden directories)  
-- You can download plenty of themes on [gnome-look](gnome-look.org), unzip them,
+- You can download plenty of themes on [gnome-look](gnome-look.org), unzip them,  
   and put them in your ".themes" directory  
-- Open .DynTheme/dynTheme.sh, and change 'lightTheme' and 'darkTheme' to the names
+- Open .DynTheme/dynTheme.sh, and change 'lightTheme' and 'darkTheme' to the names  
   of the themes you want to use !  
 
 I hope you enjoy !! :)
