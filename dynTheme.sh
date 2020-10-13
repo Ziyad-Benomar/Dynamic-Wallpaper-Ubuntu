@@ -16,8 +16,13 @@ darkTheme='CameoGreenDark'
 switchLight=6
 switchDark=19
 
-# Set changeBg to 1 to dynamically change bg, and 0 otherwise
-#------------------------------------------------------------
+
+# Set changeTheme to 1 if you want to have a dynamix light/dark theme, and 0 otherwise
+#-------------------------------------------------------------------------------------
+changeTheme=1
+
+# Set changeBg to 1 if you want to have a dynmaic wallpaper, and 0 otherwise
+#---------------------------------------------------------------------------
 changeBg=1
 
 #############################################################################
@@ -63,6 +68,11 @@ fi
 #############################################################################
 # Adapt theme :
 #--------------
+if [ $changeTheme == 0 ]
+then
+  exit 1
+fi
+
 if [ $currTime -lt $switchLight ] || [ $currTime -ge $switchDark ]
 then
 	if [ $currTheme != $darkTheme ]
