@@ -8,8 +8,8 @@
 #############################################################################
 # Choose your themes !!
 #----------------------
-lightTheme='CameoGreenLight'
-darkTheme='CameoGreenDark'
+lightTheme='Yaru-light'
+darkTheme='Yaru-dark'
 
 # Choose when to switch from light to dark mode !!
 #--------------------------------------------------
